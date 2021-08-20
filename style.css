@@ -201,14 +201,14 @@ p {
 /* Hero Section */
 #hero {
   background-image: url(./img/Banner.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: Top center;
   position: contain;
   z-index: 1;
 }
 #hero::after {
   content: "";
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   height: 100%;
